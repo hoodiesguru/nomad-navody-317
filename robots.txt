@@ -1,0 +1,22 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://nomad-navody-317.github.io/sitemap.xml
