@@ -1,0 +1,10 @@
+# Nomad navody 317
+> Moderní gastronomický portál se sídlem v městě Brno, Jihomoravský.
+
+## Obsah webu
+- [Hlavní stránka](/index.html): Přehled publikací.
+- [O nás](/about.html): Kdo jsme a co děláme.
+- [Kontakt](/contact.html): Formulář a adresa.
+## Publikace
+- [Geotargeting Tactics for Distributed Networks](/geotargeting-tactics-for-distributed-networks.html)
+- [Enterprise Static Site Frameworks and Security Guide](/enterprise-static-site-frameworks-and-security-guide.html)
