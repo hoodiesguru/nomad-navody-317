@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Source+Sans+3:wght@400;600&display=swap');
+
+:root {
+    --dksbx: hsl(34, 15%, 97%);
+    --unlwx: hsl(34, 15%, 100%);
+    --iyzub: hsl(34, 10%, 15%);
+    --xbqyp: hsl(34, 10%, 45%);
+    --xkdkv: hsl(34, 64%, 38%);
+    --lufty: hsl(214, 65%, 45%);
+    --pbzii: hsl(34, 15%, 88%);
+    --asiwv: 16px;
+    --uxsxi: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --rbpen: 'Outfit', sans-serif;
+    --wlwgu: 'Source Sans 3', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--dksbx);
+    color: var(--iyzub);
+    font-family: var(--wlwgu);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--xkdkv);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--lufty);
+    text-decoration: underline;
+}
+
+.page-wrap {
+    width: 100%;
+    max-width: 900px;
+    background: var(--unlwx);
+    border: 1px solid var(--pbzii);
+    border-radius: var(--asiwv);
+    padding: 40px;
+    box-shadow: var(--uxsxi);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--rbpen);
+    margin-bottom: 20px;
+    color: var(--iyzub);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--xkdkv);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--pbzii);
+    border-radius: var(--asiwv);
+    font-family: var(--wlwgu);
+    font-size: 1rem;
+    background: var(--dksbx);
+    color: var(--iyzub);
+}
+
+button {
+    background: var(--xkdkv);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--lufty);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--pbzii);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--xbqyp);
+    text-align: center;
+}
